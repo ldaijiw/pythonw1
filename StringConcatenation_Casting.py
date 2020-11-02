@@ -21,4 +21,4 @@ address = input("Where do you live: ")
 
 print(f'Hi {name}, you were born in {dob}, you are {age} years old.')
 
-print("Hello " + name + ", you are " + str(age) + " years old. You live in " + address)
+print("Hello " + name + ", you were born on " + dob + " and so you are " + str(age) + " years old. You live in " + address)
