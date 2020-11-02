@@ -44,3 +44,9 @@ print(len(white_spaces.strip()))
 # count() it counts number of times any substring appears in a string
 
 print(white_spaces.count('o'))
+
+#replace()
+print(white_spaces.replace("a", "letterA"))
+
+# capitalize() capitalizes first letter
+print(white_spaces.capitalize())
