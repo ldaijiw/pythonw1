@@ -26,31 +26,39 @@
 # print(shopping_list)
 
 
-# can have mixed data types in a list
-mix_list = [10, 20, 30, "apple", 5.4, bool(True), "banana"]
-print(mix_list)
-print(type(mix_list))
+# # can have mixed data types in a list
+# mix_list = [10, 20, 30, "apple", 5.4, bool(True), "banana"]
+# print(mix_list)
+# print(type(mix_list))
 
-# showing data types of each item
-mix_list_types = {item: type(item) for item in mix_list}
-print(mix_list_types)
-
-
-# adding item
-mix_list.append(5)
-
-# remove item
-mix_list.remove("apple")
-
-# replace item
-mix_list[0] = "orange"
-
-# pop
-mix_list.pop(3)
-
-# print in reverse order
-print(mix_list)
-print(mix_list[::-1])
+# # showing data types of each item
+# mix_list_types = {item: type(item) for item in mix_list}
+# print(mix_list_types)
 
 
+# # adding item
+# mix_list.append(5)
 
+# # remove item
+# mix_list.remove("apple")
+
+# # replace item
+# mix_list[0] = "orange"
+
+# # pop
+# mix_list.pop(3)
+
+# # print in reverse order
+# print(mix_list)
+# print(mix_list[::-1])
+
+
+# Tuples are IMMUTABLE (i.e. can not be changed)
+# Use cases NI number, DOB, place of birth etc.
+
+my_tuple = ("paracetamol", "eggs", "supermalt")
+print(type(my_tuple))
+
+
+# item assignment will raise error
+# my_tuple[1] = "fruits"
