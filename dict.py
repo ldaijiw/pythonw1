@@ -23,7 +23,7 @@ devops_student_data.keys()
 # finding values
 devops_student_data.values()
 
-#finding items
+# finding items
 devops_student_data.items()
 
 
