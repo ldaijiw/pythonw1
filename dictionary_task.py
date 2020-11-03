@@ -35,7 +35,17 @@ while True:
         user_details["hobbies"].append(hobby)
 
 user_details["hobbies"].reverse()
-
-
-
 print(user_details)
+
+# remove item
+user_details.pop("last name")
+print(user_details)
+
+# replace age
+user_details["age"] = 50
+print(user_details)
+
+# showing data types
+user_details_datatypes = {key: type(value) for key, value in user_details.items()}
+
+print(user_details_datatypes)
