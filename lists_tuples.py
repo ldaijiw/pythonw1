@@ -26,14 +26,14 @@
 # print(shopping_list)
 
 
-# # can have mixed data types in a list
-# mix_list = [10, 20, 30, "apple", 5.4, bool(True), "banana"]
-# print(mix_list)
-# print(type(mix_list))
+# can have mixed data types in a list
+mix_list = [10, 20, 30, "apple", 5.4, bool(True), "banana"]
+print(mix_list)
+print(type(mix_list))
 
-# # showing data types of each item
-# mix_list_types = {item: type(item) for item in mix_list}
-# print(mix_list_types)
+# showing data types of each item
+mix_list_types = {item: str(type(item)) for item in mix_list}
+print(mix_list_types)
 
 
 # # adding item
