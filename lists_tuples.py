@@ -27,7 +27,7 @@
 
 
 # can have mixed data types in a list
-mix_list = [1, 2, 3, "apple", 5.4, True, "banana"]
+mix_list = [10, 20, 30, "apple", 5.4, bool(True), "banana"]
 print(mix_list)
 print(type(mix_list))
 
