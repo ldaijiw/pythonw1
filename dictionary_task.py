@@ -28,7 +28,6 @@ user_details["hobbies"] = []
 
 while True:
     hobby = input("Do you have any hobbies? Type stop to to complete. ").lower()
-
     if hobby == "stop":
         break
     else:

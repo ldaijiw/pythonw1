@@ -26,3 +26,9 @@ devops_student_data.values()
 #finding items
 devops_student_data.items()
 
+
+# removing item from list in dictionary
+devops_student_data["completed_lesson_names"].remove("operators")
+
+# appending item to list in dictionary
+devops_student_data["completed_lesson_names"].append("collections")
